@@ -1,3 +1,5 @@
+# GUI Implementation for Formal Program Analyzer
+# This module handles all the graphical user interface components
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QTextEdit, QPushButton, QVBoxLayout, QHBoxLayout, 
                            QWidget, QLabel, QTabWidget, QSpinBox, QComboBox, QGroupBox, QScrollArea, 
