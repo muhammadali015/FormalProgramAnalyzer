@@ -1,0 +1,9 @@
+// Non-Equivalent Pair - Program 2
+// These programs should demonstrate counterexample generation
+
+x := 4;
+if (x > 4) {  // Notice the condition is different (> 4 instead of > 3)
+    y := 10;
+} else {
+    y := 0;
+} 

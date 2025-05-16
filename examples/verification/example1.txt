@@ -1,0 +1,11 @@
+// Simple assertion verification example
+// This program verifies basic arithmetic and variable assignments
+
+x := 10;
+y := 5;
+z := x + y;
+assert(z == 15);  
+w := z * 2;
+assert(w > 25);   
+assert(w < 30);   
+assert(w == 30);   

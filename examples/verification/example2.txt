@@ -1,0 +1,23 @@
+// Conditional logic verification example
+// This program verifies if-else conditions and logical expressions
+
+a := 7;
+b := 3;
+
+if (a > 5) {
+    c := a + b;
+} else {
+    c := a - b;
+}
+
+assert(c == 10);  // This should pass as a > 5 condition is true
+
+max := 0;
+if (a > b) {
+    max := a;
+} else {
+    max := b;
+}
+
+assert(max == 7);  // This should pass
+assert(max > b);   // This should pass 

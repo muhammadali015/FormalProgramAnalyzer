@@ -1,0 +1,11 @@
+// Equivalence Pair 2 - Program 2
+// Different implementations of absolute value function
+
+x := -10;  // Can be any integer value
+
+// Implementation 2: Using math trick
+negX := -x;
+absX := x;
+if (x < 0) {
+    absX := negX;
+} 

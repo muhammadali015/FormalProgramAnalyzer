@@ -1,0 +1,6 @@
+// Equivalence Pair 1 - Program 2
+// Simple commutative property test
+
+a := 5;
+b := 10;
+c := b + a; 
